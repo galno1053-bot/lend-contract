@@ -1,0 +1,10 @@
+{
+  "name": "@pinjaman/db",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/client.ts",
+  "types": "src/client.ts",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.46.0"
+  }
+}

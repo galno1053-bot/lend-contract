@@ -1,0 +1,15 @@
+{
+  "name": "lend-contract",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm --filter @pinjaman/contracts test",
+    "deploy:base": "pnpm --filter @pinjaman/contracts deploy:base",
+    "deploy:base-sepolia": "pnpm --filter @pinjaman/contracts deploy:base-sepolia",
+    "export-abi": "pnpm --filter @pinjaman/contracts export-abi"
+  }
+}
