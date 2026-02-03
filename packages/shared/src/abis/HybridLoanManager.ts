@@ -8,7 +8,8 @@ export const hybridLoanManagerAbi = [
       { name: "_aprBps", type: "uint32" },
       { name: "_payoutDeadlineSeconds", type: "uint40" },
       { name: "_usdIdrRate", type: "uint256" }
-    ]
+    ],
+    stateMutability: "nonpayable"
   },
   {
     type: "event",
