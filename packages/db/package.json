@@ -4,6 +4,10 @@
   "private": true,
   "main": "src/client.ts",
   "types": "src/client.ts",
+  "exports": {
+    ".": "./src/client.ts",
+    "./client": "./src/client.ts"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.46.0"
   }
