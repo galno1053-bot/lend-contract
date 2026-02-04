@@ -14,7 +14,7 @@ export function buildBankDetailsMessage(params: {
   chainId: string;
 }) {
   return [
-    "Pinjaman Bank Details Submission",
+    "Naxa Finance Bank Details Submission",
     `address: ${params.address}`,
     `token: ${params.token}`,
     `collateralAmount: ${params.collateralAmount}`,
@@ -31,7 +31,7 @@ export function buildAdminAccessMessage(params: {
   chainId: string;
 }) {
   return [
-    "Pinjaman Admin Bank Details Access",
+    "Naxa Finance Admin Bank Details Access",
     `address: ${params.address}`,
     `timestamp: ${params.timestamp}`,
     `chainId: ${params.chainId}`
